@@ -33,6 +33,10 @@
 		orphans: 3;
 		widows: 3;
 	}
+	html{
+		scroll-behavior: smooth;
+	}
+
 	h2,
 	h3 {
 		page-break-after: avoid;
@@ -9268,7 +9272,7 @@ mark,
 
 @media (min-width: 992px) {
 	.text-extra-big {
-		font-size: 90px;
+		font-size: 80px;
 	}
 }
 
